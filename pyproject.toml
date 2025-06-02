@@ -1,0 +1,11 @@
+[project]
+name = "skyvern-research"
+version = "0.1.0"
+requires-python = "~=3.11.0"
+dependencies = [
+ "pyautogui>=0.9.54",
+ "skyvern",
+]
+
+[tool.uv.sources]
+skyvern = { path = "skyvern", editable = true }
