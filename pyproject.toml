@@ -1,10 +1,10 @@
 [project]
 name = "skyvern-research"
 version = "0.1.0"
-requires-python = "~=3.11.0"
+requires-python = "~=3.12.0"
 dependencies = [
- "pyautogui>=0.9.54",
- "skyvern",
+    "httpx>=0.28.1",
+    "skyvern",
 ]
 
 [tool.uv.sources]
